@@ -1,3 +1,3 @@
-FROM alpine:3
+FROM mcuadros/ofelia:latest
 
-CMD echo "elo"
+RUN apk add --no-cache docker-cli
